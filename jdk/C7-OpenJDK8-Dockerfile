@@ -1,4 +1,4 @@
-FROM registry.cn-chengdu.aliyuncs.com/jackiegu/centos:7-001
+FROM registry.cn-chengdu.aliyuncs.com/jackiegu/centos
 MAINTAINER JackieGu<851469928@qq.com>
 # LABEL author=JackieGu<851469928@qq.com>
 
