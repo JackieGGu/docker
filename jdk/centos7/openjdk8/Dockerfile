@@ -1,0 +1,11 @@
+FROM registry.cn-chengdu.aliyuncs.com/jackiegu/centos:7-001
+MAINTAINER JackieGu<851469928@qq.com>
+# LABEL author=JackieGu<851469928@qq.com>
+
+ADD ../../openjdk/OpenJDK8U-jdk_x64_linux_hotspot_8u312b07.tar.gz /usr/local/java/openjdk/
+
+ENV JAVA_HOME=/usr/local/java/openjdk/jdk8u312-b07
+ENV PATH=$PATH:$JAVA_HOME/bin
+
+WORKDIR /usr/local
+CMD /bin/bash
